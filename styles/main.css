@@ -1,0 +1,21 @@
+.main {
+    min-height: 100%;
+}
+
+.header {
+    height: 80px;
+}
+
+.header-title {
+    display: inline-block;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.header-title span{
+    font-size: 2em;
+}
+
+.hero {
+
+}

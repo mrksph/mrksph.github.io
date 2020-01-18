@@ -2,13 +2,111 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hola Marcos!</title>
+    <title>Marcos Stival</title>
+
+
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/simple-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156420063-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156420063-1');
+    </script>
 </head>
 <body>
-    <h1>Welcome to Marcos' Personal Web!</h1>
+<div class="main container">
+    <header class="row header">
+        <div class="header-title">
+            <span>Marcos Stival</span>
+        </div>
+    </header>
 
+    <div class="row about">
+        <div class="about-title">
+            <h1>Welcome to Marcos' Personal Web!</h1>
+        </div>
 
-    <p>Vamos a ver cuanto tarda en actualizarse la pagina</p>
-    <p>Seguimos añadiendo contenido</p>
+        <div class="about-description">
+            <p>Vamos a ver cuanto tarda en actualizarse la pagina</p>
+            <p>Seguimos añadiendo contenido</p>
+        </div>
+
+        <div class="about-skills">
+            <div class="skill skill-front">
+                <div class="">
+                    <span>Front</span>
+                </div>
+                <ul class="skill-front-list">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Webpack</li>
+                </ul>
+            </div>
+
+            <div class="skill skill-front">
+                <div class="">
+                    <span>Back</span>
+                </div>
+                <ul class="skill-front-list">
+                    <li>Java</li>
+                    <li>NodeJS</li>
+                    <li>Kotlin</li>
+                </ul>
+            </div>
+
+            <div class="skill skill-front">
+                <div class="">
+                    <span>Infraestructura</span>
+                </div>
+                <ul class="skill-front-list">
+                    <li>AWS</li>
+                    <li>GCP</li>
+                    <li>OpenShift</li>
+                </ul>
+            </div>
+
+            <div class="skill skill-front">
+                <div class="">
+                    <span>Bases de datos</span>
+                </div>
+                <ul class="skill-front-list">
+                    <li>MySQL</li>
+                    <li>Postgres</li>
+                    <li>Neo4J</li>
+                    <li>Redis</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="row contact">
+        <form class="contact-form">
+            <div class="form-input">
+                <label>
+                    <input class="input-text" type="text"/>
+                </label>
+            </div>
+            <div class="form-input">
+                <label>
+                    <input class="input-text" type="text"/>
+                </label>
+            </div>
+            <div class="form-submit">
+                <button class="submit-button">Enviar</button>
+            </div>
+        </form>
+    </div>
+</div>
 </body>
 </html>
