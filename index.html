@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Marcos Stival</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="styles/reset.css">
     <link rel="stylesheet" type="text/css" href="styles/simple-grid.min.css">
@@ -22,52 +21,67 @@
 
         gtag('config', 'UA-156420063-1');
     </script>
+
+    <title>Marcos Stival</title>
+
 </head>
 <body>
 <div class="main container">
-    <header class="row header">
+    <header class="row row-padding header">
         <div class="header-title">
-            <span>Marcos Stival</span>
+            <span class="text-big ">Marcos Stival</span>
+        </div>
+        <div class="links-menu">
+            <ul>
+                <li><a href="https://github.com/rozularen">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/marcosstival/">LinkedIn</a></li>
+            </ul>
         </div>
     </header>
 
-    <div class="row about">
-        <div class="about-title">
-            <h1>Welcome to Marcos' Personal Web!</h1>
+    <div class="row row-padding about">
+        <div class="col-12 about-title">
+            <span class="text-big bold ">Sobre mí</span>
         </div>
 
-        <div class="about-description">
-            <p>Vamos a ver cuanto tarda en actualizarse la pagina</p>
-            <p>Seguimos añadiendo contenido</p>
+        <div class="col-10 about-description">
+            <p class="bold job-title">Desarrollador Full-Stack @ Sngular</p>
+            <p class="summary">Actualmente me dedico al desarrollo de software. Me considero una persona proactiva,
+                versátil y alegre. Me siento cómodo trabajando en equipos dinámicos y con
+                compañeros de diferentes disciplinas. Actualmente para mis side-project uso
+                React + Node + Docker </p>
         </div>
 
-        <div class="about-skills">
-            <div class="skill skill-front">
-                <div class="">
-                    <span>Front</span>
+        <div class="col-12 about-skills">
+            <div class="col-3 skill skill-front">
+                <div class="skill-title">
+                    <span class="bold">Front</span>
                 </div>
                 <ul class="skill-front-list">
                     <li>HTML5</li>
                     <li>CSS3</li>
                     <li>JavaScript</li>
+                    <li>ReactJS</li>
+                    <li>Polymer</li>
                     <li>Webpack</li>
                 </ul>
             </div>
 
-            <div class="skill skill-front">
-                <div class="">
-                    <span>Back</span>
+            <div class="col-3 skill skill-back">
+                <div class="skill-title">
+                    <span class="bold">Back</span>
                 </div>
                 <ul class="skill-front-list">
                     <li>Java</li>
                     <li>NodeJS</li>
                     <li>Kotlin</li>
+                    <li>Docker</li>
                 </ul>
             </div>
 
-            <div class="skill skill-front">
-                <div class="">
-                    <span>Infraestructura</span>
+            <div class="col-3 skill skill-infra">
+                <div class="skill-title">
+                    <span class="bold">Infraestructura</span>
                 </div>
                 <ul class="skill-front-list">
                     <li>AWS</li>
@@ -76,9 +90,9 @@
                 </ul>
             </div>
 
-            <div class="skill skill-front">
-                <div class="">
-                    <span>Bases de datos</span>
+            <div class="col-3 skill skill-db">
+                <div class="skill-title">
+                    <span class="bold">Bases de datos</span>
                 </div>
                 <ul class="skill-front-list">
                     <li>MySQL</li>
@@ -90,22 +104,34 @@
         </div>
     </div>
 
-    <div class="row contact">
-        <form class="contact-form">
+    <div class="row row-padding contact">
+        <form class="col-12 contact-form">
+            <div class="form-title">
+                <span class="text-big bold">Contacto</span>
+            </div>
+            <div class="form-subtitle">
+                <p>Puedes dejarme un mensaje escribiéndome a <span class="link">markscosta15@hotmail.com</span></p>
+            </div>
             <div class="form-input">
                 <label>
-                    <input class="input-text" type="text"/>
+                    <input class="input-text" placeholder="Email" type="text"/>
                 </label>
             </div>
             <div class="form-input">
                 <label>
-                    <input class="input-text" type="text"/>
+                    <textarea class="input-textarea" placeholder="Mensaje" type="text"></textarea>
                 </label>
             </div>
             <div class="form-submit">
-                <button class="submit-button">Enviar</button>
+                <input type="submit" class="submit-button"/>
             </div>
         </form>
+    </div>
+
+    <div class="row row-padding bottom">
+        <div class="col-12 last-line">
+            <p>Powered by Github Pages. 2019 ©</p>
+        </div>
     </div>
 </div>
 </body>

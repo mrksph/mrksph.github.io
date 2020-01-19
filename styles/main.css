@@ -1,21 +1,88 @@
+* {
+    font-family: monospace;
+}
+
 .main {
     min-height: 100%;
 }
 
-.header {
-    height: 80px;
+.row-padding {
+    padding: 0 1em;
 }
 
-.header-title {
-    display: inline-block;
+.header {
+    height: 80px;
     padding-top: 16px;
     padding-bottom: 16px;
 }
 
-.header-title span{
-    font-size: 2em;
+.header-title {
+    display: inline-block;
+
 }
 
 .hero {
 
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-big {
+    font-size: 2em;
+}
+
+.about {
+}
+
+.about-description {
+    padding: 1em;
+}
+
+.links-menu, .links-menu ul > li {
+    display: inline-block;
+}
+
+.links-menu {
+    float: right;
+}
+
+.links-menu ul > li {
+    margin-left: 16px;
+}
+
+.summary {
+    line-height: 1.19;
+}
+
+.white-text {
+    color: white;
+}
+
+.skill {
+    padding: 16px;
+}
+
+.contact {
+}
+
+.form-subtitle, .form-input, .form-submit {
+    padding: 16px;
+}
+
+.submit-button {
+
+}
+
+.input-textarea {
+    max-width: 60%;
+}
+
+.bottom {
+    height: 80px;
+}
+
+.last-line {
+    padding-top: 40px;
 }
